@@ -468,7 +468,7 @@ ul.social_top_icon li a:hover {
 }
 
 .bor_bottom {
-    border-bottom: #ff8c00 solid 1px;
+    border-bottom: var(--primary-color) solid 1px;
 }
 
 .banner_main {

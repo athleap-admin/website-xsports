@@ -205,9 +205,9 @@
        
         margin-right: 15px;
     }
-    ul.social_icon {
-        display: none;
-    }
+    /* ul.social_icon {
+        display: block;
+    } */
 }
 
 @media (max-width: 575px) {
@@ -317,9 +317,13 @@
         /* margin-right: 15px; */
         width:40rem;
     }
-    ul.social_icon {
-        display: none
-    }
+    /* ul.social_icon {
+        display: block
+    } */
+
+   .footer_row{
+    flex-direction: column;
+}
     .copyright p {
         font-size: 22px;
     }

@@ -932,6 +932,35 @@ ul.social_icon li a:hover {
     color: #ff8c00;
 }
 
+.policies{
+    display: flex;
+    gap:16px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer{
+    padding: 16px;
+    background: var(--primary-color);
+    color:white;
+}
+.footer_row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_link{
+    color:white;
+    text-decoration: underline;
+
+    &:hover{
+        color:#ff8c00;
+        background-color: #000;
+        padding: 6px;
+        border-radius: 4px;
+    }
+}
+
+
 
 /** end footer **/
 
